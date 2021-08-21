@@ -12,8 +12,9 @@ class FlutterPluginGprint {
   PrintPChanged<String>? _connectBluetoothValueChanged;
   PrintPChanged<Map>? _printProgressValueChanged;
   PrintPChanged<String>? _connectStatuesChanged;
-
   bool  dis_connect=true;
+  String data7='e';
+
   FlutterPluginGprint(){
     _channel.setMethodCallHandler(_onCall);
 
